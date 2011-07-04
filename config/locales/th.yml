@@ -279,7 +279,7 @@ th:
   back_end: Back End
   back_to_store: "กลับไปหน้าร้าน"
   backordered: Backordered
-  backordering_is_allowed: "(%{not} allowed) การซื้อเมื่อสินค้าหมด"
+  backordering_is_allowed: "(%{not}อนุญาต) การซื้อเมื่อสินค้าหมด"
   balance_due: "Balance Due"
   best_selling_products: "Best Selling Products"
   best_selling_taxons: "Best Selling Taxons"
@@ -653,7 +653,7 @@ th:
   payment_information: ข้อมูลการจ่ายเงิน
   payment_method: Payment Method
   payment_methods: Payment Methods
-  payment_methods_setting_description: Configure methods customers can use to pay
+  payment_methods_setting_description: จัดการวิธีการที่อนุญาตให้ลูกคำชำระ
   payment_processing_failed: "Payment could not be processed, please check the details you entered"
   payment_state: สถานะการชำระเงิน
   payment_states: 
@@ -817,7 +817,7 @@ th:
         name: "With property value"
         sentence: with property <em>%s</em> and value <em>%s</em>
   products: สินค้า
-  products_with_zero_inventory_display: "(%{not} Display) แสดงสินค้าที่หมดคลังสินค้า"
+  products_with_zero_inventory_display: "(%{not}แสดง) แสดงสินค้าที่หมดคลังสินค้า"
   promotion: Promotion
   promotion_form: 
     match_policies: 
