@@ -2,7 +2,7 @@
 th: 
   'no': "No"
   'yes': "Yes"
-  5_biggest_spenders: "5 Biggest Spenders"
+  5_biggest_spenders: "สินค้าขายดี 5 อันดับ"
   a_copy_of_all_mail_will_be_sent_to_the_following_addresses: "เมลที่ที่ถูกคัดลอกจะส่งไปยังที่อยู่นี้"
   abbreviation: คำย่อ
   access_denied: ไม่อนุญาตให้ผ่าน
@@ -17,38 +17,38 @@ th:
     listing: รายการ
     new: สร้าง
     update: ปรับปรุง
-  active: "Active"
+  active: "เปิดการใช้งาน"
   activerecord: 
     attributes: 
       address: 
         address1: ที่อยู่
         address2: "ที่อยู่ (เพิ่มเติม)"
-        city: จังหวัด
-        country: "Country"
-        first_name_begins_with: "First Name Begins With"
-        firstname: "First Name"
-        last_name_begins_with: "Last Name Begins With"
-        lastname: "Last Name"
+        city: อำเภอ/เขต
+        country: "ประเทศ"
+        first_name_begins_with: "ชื่อขึ้นต้นด้วย"
+        firstname: "ชื่อ"
+        last_name_begins_with: "นามสกุลขึ้นต้นด้วย"
+        lastname: "นามสกุล"
         phone: โทรศัพท์
-        state: "State"
+        state: "จังหวัด"
         zipcode: รหัสไปรษณีย์
       checkout: 
         bill_address: 
-          address1: "Billing address street"
-          city: "Billing address city"
-          firstname: "Billing address first name"
-          lastname: "Billing address last name"
-          phone: "Billing address phone"
-          state: "Billing address state"
-          zipcode: "Billing address zipcode"
+          address1: "ที่อยู่บนใบเสร็จ"
+          city: "เขต/อำเภอบนใบเสร็จ"
+          firstname: "ชื่อบนใบเสร็จ"
+          lastname: "นามสกุลบนใบเสร็จ"
+          phone: "หมายเลขโทรศัพท์บนใบเสร็จ"
+          state: "จังหวัดบนใบเสร็จ"
+          zipcode: "รหัสไปรษณีย์บนใบเสร็จ"
         ship_address: 
-          address1: "Shipping address street"
-          city: "Shipping address city"
-          firstname: "Shipping address first name"
-          lastname: "Shipping address last name"
-          phone: "Shipping address phone"
-          state: "Shipping address state"
-          zipcode: "Shipping address zipcode"
+          address1: "ที่อยู่สำหรับส่งสินค้า"
+          city: "เขต/อำเภอสำหรับส่งสินค้า"
+          firstname: "ชื่อสำหรับส่งสินค้า"
+          lastname: "นามสกุมสำหรับส่งสินค้า"
+          phone: "หมายเลขโทรศัพท์สำหรับส่งสินค้า"
+          state: "จังหวัดสำหรับส่งสินค้า"
+          zipcode: "รหัสไปรษณีย์สำหรับส่งสินค้า"
       country: 
         iso: ISO
         iso3: ISO3
@@ -56,10 +56,10 @@ th:
         name: ชื่อ
         numcode: "ISO Code"
       creditcard: 
-        cc_type: Type
+        cc_type: ประเภท
         month: เดือน
-        number: Number
-        verification_value: "Verification Value"
+        number: ตัวเลข
+        verification_value: "ค่าสำหรับการตรวจสอบ"
         year: ปี
       inventory_unit: 
         state: สถานะ
@@ -68,17 +68,17 @@ th:
         quantity: จำนวน
       order: 
         checkout_complete: รายการสั่งซื้อเสร็จสมบูรณ์
-        completed_at: "Completed At"
-        coupon_code: "Coupon Code"
-        ip_address: "IP Address"
+        completed_at: "เสร็จสมบูรณ์เมื่อ"
+        coupon_code: "รหัสคูปองส่วนลด"
+        ip_address: "หมายเลข IP"
         item_total: "จำนวนสินค้า"
         number: หมายเลข
-        special_instructions: "Special Instructions"
-        state: State
+        special_instructions: "คำแนะนำพิเศษ"
+        state: สถานะ
         total: รวม
       product: 
         available_on: พร้อมขายในวันที่
-        cost_price: "Cost Price"
+        cost_price: "ราคาต้นทุน"
         description: รายละเอียด
         master_price: ราคาหลัก
         name: ชื่อ
@@ -86,53 +86,54 @@ th:
         shipping_category: กลุ่มวิธีการจัดส่ง
         tax_category: กลุ่มการเก็บภาษี
       product_group: 
-        name: "Name"
-        product_count: "Product count"
-        product_scopes: "Product scopes"
-        products: "Products"
+        name: "ชื่อ"
+        product_count: "ราคาสินค้า"
+        product_scopes: "ขอบเขตของสินค้า"
+        products: "สินค้า"
         url: "URL"
       product_scope: 
-        arguments: "Arguments"
-        description: "Description"
+        arguments: "ค่าต่างๆ"
+        description: "คำอธิบาย"
       promotion: 
-        code: "Code"
-        description: "Description"
-        expires_at: "Expires at"
-        name: "Name"
-        starts_at: "Starts at"
-        usage_limit: "Usage limit"
+        code: "รหัส"
+        description: "คำอธิบาย"
+        expires_at: "หมดเขตเมื่อ"
+        name: "ชื่อ"
+        starts_at: "เริ่มใช้เมื่อ"
+        usage_limit: "จำนวนครั้งที่อนุญาตให้ใช้"
       property: 
         name: ชื่อ
         presentation: ชื่อที่แสดง
       prototype: 
         name: ชื่อ
       return_authorization: 
-        amount: Amount
+        amount: จำนวน
       role: 
         name: ชื่อ
       state: 
-        abbr: Abbreviation
+        abbr: ตัวย่อ
         name: ชื่อ
       tax_category: 
         description: คำอธิบาย
         name: ชื่อ
       tax_rate: 
-        amount: Rate
+        amount: อัตรา
       taxon: 
         name: ชื่อ
         permalink: Permalink
-        position: Position
+        position: ตำแหน่ง
       taxonomy: 
         name: ชื่อ
       user: 
         email: อีเมล
+        password: รหัสผ่าน
       variant: 
-        cost_price: "Cost Price"
+        cost_price: "ราคาต้นทุน"
         depth: ความลึก
         height: ความสูง
         price: ราคา
         sku: SKU
-        weight: นำหนัก
+        weight: น้ำหนัก
         width: ความกว้าง
       zone: 
         description: รายละเอียด
@@ -166,44 +167,44 @@ th:
         one: รายการ
         other: รายการอื่นๆ
       payment: 
-        one: Payment
-        other: Payments
+        one: การชำระเงิน
+        other: การชำระเงินอื่นๆ
       product: 
-        one: Product
-        other: Products
+        one: สินค้า
+        other: สินค้าอื่นๆ
       product_group: 
-        one: "Product group"
-        other: "Product groups"
+        one: "กลุ่มสินค้า"
+        other: "กลุ่มสินค้าอื่นๆ"
       property: 
         one: สรรพคุณ
         other: สรรพคุณอื่นๆ
       prototype: 
-        one: Prototype
-        other: Prototypes
+        one: ต้นแบบ
+        other: ต้นแบบอื่นๆ
       return_authorization: 
         one: Return Authorization
         other: Return Authorizations
       role: 
-        one: Roles
-        other: Roles
+        one: บทบาท
+        other: บทบาทอื่นๆ
       shipment: 
-        one: Shipment
-        other: Shipments
+        one: การจัดส่ง
+        other: การจัดส่งอื่นๆ
       shipping_category: 
-        one: "Shipping Category"
-        other: "Shipping Categories"
+        one: "หมวดหมู่การจัดส่ง"
+        other: "หมวดหมู่การจัดส่งอื่นๆ"
       state: 
-        one: State
-        other: States
+        one: สถานะ
+        other: สถานะอื่นๆ
       tax_category: 
-        one: "Tax Category"
-        other: "Tax Categories"
+        one: "หมวดหมู่ภาษี"
+        other: "หมวดหมู่ภาษีอื่นๆ"
       tax_rate: 
-        one: "Tax Rate"
-        other: "Tax Rates"
+        one: "อัตราภาษี"
+        other: "อัตราภาษีอื่นๆ"
       taxon: 
-        one: Taxon
-        other: Taxons
+        one: กลุ่ม
+        other: กลุ่มอื่นๆ
       taxonomy: 
         one: หมวดหมู่
         other: หมวดหมู่อื่นๆ
@@ -211,32 +212,32 @@ th:
         one: ผู้ใช้
         other: ผู้ใช้อื่นๆ
       variant: 
-        one: Variant
-        other: Variants
+        one: แบบสินค้า
+        other: แบบสินค้าต่างๆ
       zone: 
-        one: Zone
-        other: Zones
-  add: Add
+        one: โซน
+        other: โซนอื่นๆ
+  add: เพิ่ม
   add_category: เพิ่มหมวดหมู่
   add_country: เพิ่มประเทศ
   add_option_type: เพิ่มรายการเพื่อเลือก
   add_option_types: เพิ่มรายการเพื่อเลือก
   add_option_value: เพิ่มรายการตัวเลือก
-  add_product: "Add Product"
+  add_product: "เพิ่มสินค้า"
   add_product_properties: เพิ่มสรรพคุณ
-  add_rule_of_type: Add rule of type
-  add_scope: "Add a scope"
+  add_rule_of_type: เพิ่มกฎของชนิด
+  add_scope: "เพิ่มขอบเขต"
   add_state: "เพิ่มรัฐ"
   add_to_cart: เพิ่มลงตะกร้า
-  add_zone: "Add Zone"
-  additional_item: Additional Item Cost
+  add_zone: "เพิ่มโซน"
+  additional_item: ราคาสินค้าเพิ่มเติม
   address: ที่อยู่
-  address_information: "Address Information"
-  adjustment: Adjustment
-  adjustment_total: Adjustment Total
-  adjustments: Adjustments
+  address_information: "ข้อมูลที่อยู่"
+  adjustment: การปรับปรุง
+  adjustment_total: การปรับปรุงทั้งหมด
+  adjustments: การปรับปรุงอื่นๆ
   administration: การจัดการ
-  all: "All"
+  all: "ทั้งหมด"
   all_departments: All departments
   allow_backorders: "อนุญาติการสั่งซื้อ เมื่อสินค้าหมด"
   allow_ssl_to_be_used_when_in_developement_and_test_modes: Allow SSL to be used when in development and test modes
@@ -260,7 +261,7 @@ th:
     key_generated: "API key generated"
     no_key: "No key defined"
     regenerate_key: "Regenerate API key"
-  apply: "Apply"
+  apply: "เริ่มใช้งาน"
   are_you_sure: "แน่ใจหรือไม่"
   are_you_sure_category: "คุณแน่ใจที่จะลบหมวดนี้หรือไม่?"
   are_you_sure_delete: "คุณแน่ใจที่จะลบข้อมูลนี้หรือไม่?"
@@ -283,22 +284,22 @@ th:
   best_selling_products: "Best Selling Products"
   best_selling_taxons: "Best Selling Taxons"
   bill_address: "ที่อยู่บนใบเสร็จรับเงิน"
-  billing: Billing
+  billing: ใบเสร็จ
   billing_address: ใบเสร็จรับเงิน
   both: Both
-  by_day: "by day"
+  by_day: "ตามวัน"
   calculator: Calculator
   calculator_settings_warning: "If you are changing the calculator type, you must save first before you can edit the calculator settings"
   cancel: ยกเลิก
-  cancel_my_account: Cancel my account
-  cancel_my_account_description: "Unhappy?"
+  cancel_my_account: ยกเลิกการเป็นสมาชิก
+  cancel_my_account_description: "ไม่ต้องการเป็นสมาชิกแล้ว?"
   canceled: ยกเลิกแล้ว
   cannot_create_returns: Cannot create returns as this order has not shipped yet.
   cannot_destory_line_item_as_inventory_units_have_shipped: Cannot destory line item as some inventory units have shipped.
   cannot_perform_operation: "Cannot perform requested operation"
   capture: capture
   card_code: "รหัสบัตร"
-  card_details: "Card details"
+  card_details: "รายละเอียดบัตร"
   card_number: "หมายเลขบัตร"
   card_type_is: ชนิดของบัตร
   cart: ตะกร้าสินค้า
@@ -306,17 +307,17 @@ th:
   category: ชนิด
   change: เปลี่ยน
   change_language: เปลี่ยนภาษา
-  change_my_password: "Change my password"
+  change_my_password: "เปลี่ยนรหัสผ่าน"
   charge_total: Charge Total
   charged: Charged
   charges: Charges
   checkout: สั่งซื้อ
   cheque: Cheque
   city: เขต หรือ อำเภอ
-  clone: Clone
-  code: Code
+  clone: ทำซ้ำ
+  code: รหัส
   combine: Combine
-  complete: complete
+  complete: เสร็จสมบูรณ์
   complete_list: รายการจัดการทั้งหมด
   configuration: จัดการระบบ
   configuration_options: ข้อมูลตัวเลือก
@@ -328,13 +329,13 @@ th:
   continue: ดำเนินการต่อ
   continue_shopping: เลือกสินค้าต่อ
   copy_all_mails_to: คัดลอกเมลทุกฉบับส่งไปที่
-  cost_price: "Cost Price"
-  count: Count
+  cost_price: "ราคาต้นทุน"
+  count: นับ
   count_of_reduced_by: "count of '%{name}' reduced by %{count}"
   country: ประเทศ
   country_based: ยืดประเทศเป็นหลัก
-  coupon: Coupon
-  coupon_code: Coupon code
+  coupon: คูปองส่วนลด
+  coupon_code: รหัสคูปองส่วนลด
   create: สร้าง
   create_a_new_account: สร้างบัญชีผู้ใช้ใหม่
   create_product_group_from_products: Create a new product group from these products
@@ -405,8 +406,8 @@ th:
       could_not_create_taxon: "Could not create taxon"
       no_shipping_methods_available: "No shipping methods available for selected location, please change your address and try again."
   errors_prohibited_this_record_from_being_saved: 
-    one: "1 error prohibited this record from being saved"
-    other: "%{count} errors prohibited this record from being saved"
+    one: "1 ข้อผิดพลาดที่ทำให้ข้อมูลไม่สามารถถูกบันทึกได้"
+    other: "%{count} ข้อผิดพลาดที่ทำให้ข้อมูลไม่สามารถถูกบันทึกได้"
   event: Event
   existing_customer: "เป็นลูกค้าเดิม"
   expiration: "หมดอายุ"
@@ -482,10 +483,10 @@ th:
       gt: greater than
       gte: greater than or equal to
   items: "Items"
-  last_14_days: "Last 14 Days"
-  last_5_orders: "Last 5 Orders"
-  last_7_days: "Last 7 Days"
-  last_month: "Last Month"
+  last_14_days: "14 วันที่แล้ว"
+  last_5_orders: "การสั่งซื้อล่าสุด 5 อันดับ"
+  last_7_days: "7 วันที่แล้ว"
+  last_month: "เดือนที่แล้ว"
   last_name: นามสกุล
   last_name_begins_with: "Last Name Begins With"
   last_year: "Last Year"
@@ -505,10 +506,10 @@ th:
   logged_in_as: เข้าสู่ระบบเป็น
   logged_in_succesfully: "เข้าสู่ระบบสำเร็จ"
   logged_out: "คุณได้ออกจากระบบแล้ว"
-  login: Login
+  login: เข้าสู่ระบบ
   login_as_existing: "เข้าสู่ระบบจากบัญขีที่มีอยู่แล้ว"
-  login_failed: "Login authentication failed."
-  login_name: Login
+  login_failed: "การเข้าสู่ระบบล่มเหลว"
+  login_name: ชื่อสำหรับเข้าสู่ระบบ
   logout: ออกจากระบบ
   look_for_similar_items: Look for similar items
   maestro_or_solo_cards: Maestro/Solo cards
@@ -526,12 +527,12 @@ th:
   metadata: ข้อมูลประกอบสินค้า
   minimal_amount: "Minimal Amount"
   missing_required_information: "Missing Required Information"
-  month: "Month"
+  month: "เดือน"
   my_account: บัญชีของท่าน
   my_orders: รายการสั่งซื้อ
   name: ชื่อ
   name_or_sku: "Name or SKU"
-  new: New
+  new: สร้างใหม่
   new_adjustment: "New Adjustment"
   new_billing_integration: New Billing Integration
   new_category: "New category"
@@ -611,18 +612,18 @@ th:
   order_processed_successfully: "รายการสั่งซื้อของคุณถูกดำเนินการเรียบร้อยแล้ว"
   order_state: # keys correspond to Checkout state names:
     # keys correspond to Checkout state names: 
-    address: address
-    adjustments: adjustments
-    awaiting_return: awaiting return
-    canceled: canceled
-    cart: cart
-    complete: complete
-    confirm: confirm
-    delivery: delivery
-    payment: payment
-    resumed: resumed
-    returned: returned
-  order_summary: Order Summary
+    address: ที่อยู่
+    adjustments: การปรับปรุง
+    awaiting_return: รอการกลับมา
+    canceled: ยกเลิก
+    cart: ตะกร้าสินค้า
+    complete: เสร็จสมบูรณ์
+    confirm: ยืนยัน
+    delivery: จัดส่ง
+    payment: ชำระเงิน
+    resumed: ทำต่อ
+    returned: กลับมาอืกครั้ง
+  order_summary: สรุปการสั่งซื้อ
   order_sure_want_to: "Are you sure you want to %{event} this order?"
   order_total: ราคารวม
   order_total_message: "ยอดซื้อรวมจะเก็บจากบัตรเครดิตของคุณ"
@@ -630,8 +631,9 @@ th:
   orders: รายการสั่งซื้อ
   other_payment_options: Other Payment Options
   out_of_stock: สินค้าหมด
-  out_of_stock_products: "Out of Stock Products"
+  out_of_stock_products: "สินค้าหมด"
   over_paid: "Over Paid"
+  over_safety_stock_products: "สินค้าเหลือน้อยกว่าจำนวนปลอดภัย"  
   overview: ภาพรวม
   overview_welcome: "Welcome to your store overview, currently we do not have enough data to display the Overiew Dashboard.<br/><br/> The dashboard will display automatically once the system has sufficent orders to allow generation of the statistics."
   page_only_viewable_when_logged_in: You attempted to visit a page which can only be viewed when you are logged in
@@ -653,16 +655,16 @@ th:
   payment_methods: Payment Methods
   payment_methods_setting_description: Configure methods customers can use to pay
   payment_processing_failed: "Payment could not be processed, please check the details you entered"
-  payment_state: Payment State
+  payment_state: สถานะการชำระเงิน
   payment_states: 
-    balance_due: balance due
+    balance_due: ค้างชำระ
     checkout: checkout
-    completed: completed
+    completed: เสร็จสมบูรณ์
     credit_owed: credit owed
-    failed: failed
-    paid: paid
-    pending: pending
-    processing: processing
+    failed: ล้มเหลว
+    paid: จ่ายแล้ว
+    pending: รอดำเนินการ
+    processing: กำลังดำเนินการ
     void: void
   payment_updated: Payment Updated
   payments: รายการจ่าย
@@ -882,6 +884,7 @@ th:
   rma_value: RMA Value
   roles: บทบาท
   rules: Rules
+  safety_stock: "จำนวนปลอดภัย"  
   sales_tax: "Sales Tax"
   sales_total: "ยอดขายรวม"
   sales_total_description: "Sales Total For All Orders"
@@ -912,26 +915,26 @@ th:
   shipment_mailer: 
     shipped_email: 
       subject: "Shipment Notification"
-  shipment_number: "รหัสส่งของ"
+  shipment_number: "รหัสส่งสินค้า"
   shipment_state: Shipment State
   shipment_states: 
     backorder: backorder
-    partial: partial
-    pending: pending
-    ready: ready
-    shipped: shipped
+    partial: จัดส่งบางส่วน
+    pending: รอดำเนินการ
+    ready: พร้อมจัดส่ง
+    shipped: จัดส่งแล้ว
   shipment_updated: Shipment Updated
   shipments: "Shipments"
   shipped: เสร็จสินการจัดส่ง
   shipping: "ค่าจัดส่ง"
-  shipping_address: ที่อยู่สำหรับส่งของ
+  shipping_address: ที่อยู่สำหรับส่งสินค้า
   shipping_categories: กลุ่มวิธีการจัดส่ง
   shipping_categories_description: "จัดการระบบจัดส่ง เพื่อระบุว่าสินค้าแต่ละชิ้นสามารถจัดส่งด้วยวิธีใด"
-  shipping_category: Shipping Category
+  shipping_category: หมวดหมู่การส่งสินค้า
   shipping_cost: ค่าจัดส่ง
   shipping_error: "การจัดส่งขัดข้อง"
   shipping_instructions: "ขั้นตอนการจัดส่ง"
-  shipping_method: วิธีส่งของ
+  shipping_method: วิธีส่งสินค้า
   shipping_methods: "วิธีการจัดส่ง"
   shipping_methods_description: "จัดการ การจัดส่งสินค้า"
   shipping_total: "Shipping Total"
@@ -1007,7 +1010,7 @@ th:
   test: "Test"
   test_mode: Test Mode
   thank_you_for_your_order: "ขอบคุณสำหรับการสั่งซื้อ ท่านสามารถพิมพ์รายการยืนยันเพื่อเก็บเป็นหลักฐานได้"
-  there_were_problems_with_the_following_fields: "There were problems with the following fields"
+  there_were_problems_with_the_following_fields: "พบข้อผิดพลาดสำหรับข้อมูลต่อไปนี้"
   this_file_language: "ภาษาไทย (TH)"
   this_month: "This Month"
   this_year: "This Year"
@@ -1029,7 +1032,7 @@ th:
   unable_to_connect_to_gateway: "Unable to connect to gateway."
   unable_to_save_order: "ไม่สามารถบันทึกรายการซื้อได้"
   under_paid: "Under Paid"
-  units: "Units"
+  units: "หน่วย"
   unrecognized_card_type: ไม่รู้จักบัตรชนิดนี้
   update: ใช้ข้อมูลใหม่
   update_password: "ใช้รหัสผ่านล่าสุด จากนั้นนำฉันเข้าสู่ระบบ"
@@ -1042,10 +1045,10 @@ th:
   use_new_cc: "Use a new card"
   user: ผู้ใช้
   user_account: "บัญชีผู้ใช้"
-  user_created_successfully: "User created successfully"
+  user_created_successfully: "ผู้ใช้ถูกสร้างสำเร็จแล้ว"
   user_details: "รายละเอียดผู้ใช้"
   user_rule: 
-    choose_users: Choose users
+    choose_users: เลือกผู้ใช้
   users: ผู้ใช้
   validate_on_profile_create: Validate on profile create
   validation: 
@@ -1068,7 +1071,7 @@ th:
   width: ความกว้าง
   year: "ปี"
   you_have_been_logged_out: "คุณออกจากระบบแล้ว"
-  you_have_no_orders_yet: "You have no orders yet."
+  you_have_no_orders_yet: "คุณยังไม่มีรายการสั่งซื้อ"
   your_cart_is_empty: "ตะกร้าสินค้าของคุณว่างเปล่า"
   zip: รหัสไปรษณีย์
   zone: เขต
