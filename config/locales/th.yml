@@ -507,7 +507,7 @@ th:
   logged_in_succesfully: "เข้าสู่ระบบสำเร็จ"
   logged_out: "คุณได้ออกจากระบบแล้ว"
   login: เข้าสู่ระบบ
-  login_as_existing: "เข้าสู่ระบบจากบัญขีที่มีอยู่แล้ว"
+  login_as_existing: "เข้าสู่ระบบจากบัญชีที่มีอยู่แล้ว"
   login_failed: "การเข้าสู่ระบบล่มเหลว"
   login_name: ชื่อสำหรับเข้าสู่ระบบ
   logout: ออกจากระบบ
